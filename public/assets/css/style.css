@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Darumadrop+One&display=swap');
+
 h1 {
-    font-size: 60px;
+    font-size: 80px;
+    /* font-family: "Black And White Picture", serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Darumadrop One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* p {
+    font-size: large;
+} */
+
+#item1 {
+    margin-top: 25px; /* t r/l b */
+    /* background-color: aqua; */
+    /* height: 400px; */
+}
+
+#item2 {
+    margin-top: 25px; /* t r b l */
+    /* background-color: tomato; */
+    /* height: 400px; */
+}
+
+body {
+    padding: 50px;
+}
+
+#picker {
+    padding-bottom: 50px;
+}
+
+#img_header {
+    padding-top: 15px;
+}
+
+#nasa_info {
+    border: 5px dotted lavender;
+    border-radius: 25px;
+    background-color: rgba(230, 230, 250, 0.568);
+    padding-bottom: 25px;
+}
+
+#pictureOTD {
+    border-radius: 25px;
 }
