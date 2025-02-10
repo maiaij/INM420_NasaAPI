@@ -1,20 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Darumadrop+One&display=swap');
+/* 
+ *  Maia Johnson
+ *  February 10, 2025
+*/
 
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Klee+One:wght@400;600&family=Gaegu:wght@300;400;700&display=swap');
+
+/* font styling */
 h1 {
     font-size: 80px;
-    /* font-family: "Black And White Picture", serif;
-    font-weight: 400;
-    font-style: normal; */
     font-family: "Darumadrop One", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-/* p {
-    font-size: large;
-} */
+h2 {
+    font-size: 60px;
+    font-family: "Gaegu", serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
+h4 {
+    font-family: "Darumadrop One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Klee One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* make the image and image description inline. background colour for sizing/spacing commented out */
 #item1 {
     margin-top: 25px; /* t r/l b */
     /* background-color: aqua; */
@@ -35,10 +55,19 @@ body {
     padding-bottom: 50px;
 }
 
+/* round the edges of the date input box */
+#date_picker {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 #img_header {
     padding-top: 15px;
 }
 
+/* set lavender bordered box for all the info displayed from the nasa API */
 #nasa_info {
     border: 5px dotted lavender;
     border-radius: 25px;
@@ -46,6 +75,7 @@ body {
     padding-bottom: 25px;
 }
 
+/* round the edges of the nasa image */
 #pictureOTD {
     border-radius: 25px;
 }
